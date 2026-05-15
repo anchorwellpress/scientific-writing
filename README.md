@@ -169,6 +169,12 @@ Pull requests welcome. The most valuable contributions are:
 
 When contributing, please test against `scripts/audit_manuscript.py` on a sample manuscript with deliberately seeded errors (Class 1 fabrication, Class 2 plausible-wrong-authors, Class 3 real-paper-wrong-claim).
 
+## Related Work
+
+Several tools address adjacent problems in this space. K-Dense's [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) is an end-to-end document-production toolkit covering papers, posters, and grant proposals with real-time literature search. Medical Research Skills ([hesreallyhim/awesome-claude-code#1389](https://github.com/hesreallyhim/awesome-claude-code/issues/1389)) provides reporting-guideline compliance auditing (STARD, STROBE, PRISMA, ARRIVE, TRIPOD+AI). CheckIfExist offers web-based reference validation against CrossRef, Semantic Scholar, and OpenAlex. clibib retrieves authoritative BibTeX records via Zotero Translation Server.
+
+This skill operates at a different moment in the writing workflow than any of these. Production tools generate documents; checkers validate finished citation lists; this skill enforces verification *during* prose drafting, when the citation is going into the paragraph. The discipline complements rather than competes with end-stage tools — a manuscript drafted under this discipline still benefits from a finished-document audit before submission.
+
 ## License
 
 MIT. See `LICENSE`.
