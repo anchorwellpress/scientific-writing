@@ -174,11 +174,11 @@ When contributing, please test against `scripts/audit_manuscript.py` on a sample
 MIT. See `LICENSE`.
 
 ## Acknowledgments
-
-Built on the documented hallucination patterns from peer-reviewed LLM citation studies (Mugaanyi 2024, Chelli 2024, Hwang 2024, Ahn 2024). The discipline draws on standard scientific writing practice — IMRaD, Vancouver style, fact-checking discipline — adapted for AI-assisted workflows.
-
+Built on documented hallucination patterns from peer-reviewed LLM citation studies (Mugaanyi 2024,¹ Chelli 2024²). The discipline draws on standard scientific writing practice — IMRaD, Vancouver style, fact-checking discipline — adapted for AI-assisted workflows.
 ---
+According to PubMed:
 
 ¹ Mugaanyi J, Cai L, Cheng S, Lu C, Huang J. Evaluation of Large Language Model Performance and Reliability for Citations and References in Scholarly Writing: Cross-Disciplinary Study. *J Med Internet Res.* 2024;26:e52935. [doi:10.2196/52935](https://doi.org/10.2196/52935)
+² Chelli M, Descamps J, Lavoué V, et al. Hallucination Rates and Reference Accuracy of ChatGPT and Bard for Systematic Reviews: Comparative Analysis. *J Med Internet Res.* 2024;26:e53164. [doi:10.2196/53164](https://doi.org/10.2196/53164)
 
 ² Chelli M, Descamps J, Lavoué V, et al. Hallucination Rates and Reference Accuracy of ChatGPT and Bard for Systematic Reviews: Comparative Analysis. *J Med Internet Res.* 2024;26:e53164. [doi:10.2196/53164](https://doi.org/10.2196/53164)
